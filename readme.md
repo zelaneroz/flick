@@ -5,6 +5,8 @@
 > A mobile-first app where college students can find study buddies, join hangouts, discover events, and connect through anonymous or public posts — all in one flick.
 
 ---
+## [Flick - Market Research](https://docs.google.com/document/d/1zvPC5alQTCWaZ_ZICgUSWKu2GeD0UqT-fHkMU1YDNbQ/edit?tab=t.0)
+---
 
 ## 🚀 **Core Functionalities**
 
@@ -26,7 +28,7 @@
 - See who's attending.
 - **AI-powered suggestions** based on interests and schedule sync.
 
-### 3. 💬 **Chalkboard**
+### 3. 💬 **VibeWall**
 - Microblog: post your thoughts, confessions, questions.
 - Choose “Anonymous” or “Username mode”.
 - Tag moods like: #vent, #celebrate, #needadvice, #memes.
@@ -43,23 +45,35 @@
   - Past activity
 - Option to sync class schedule.
 
-### 5. 🧠 **MoodMate (Mental Health Add-on)**
-- Daily mood check-in.
-- Journal space with prompts.
-- AI gives uplifting messages or activity recs (e.g., “How about a walk?”).
-- Burnout prediction based on event attendance, vibe wall posts, and sleep/study logs (if integrated).
+### 5. 📸 **IRL**
+*"What are you up to, right now?"*
+A once-a-day prompt (like BeReal) or a live photo feed (like Locket) where users:
+* Share a snap of where they are or what they’re doing right now
+* Get a peek into friends’ lives in real-time
+* Can post public to campus, private to friends, or just for matched people
+* Name of Page: 'Moments'
+
+**📱 Feature Breakdown**
+* Daily Prompt / Reminder
+  * 1x/day you get pinged: “Time to flick a pic 📸”
+  * Camera opens → take a quick dual pic (front/back)
+  * Add mood (emoji) or quick caption
+  * Options to post: friends only, study match, campus-wide
+
+**🧭 Feed/Wall Layout**
+- Grid view of friends’ Moments
+- Sort by: Today | Friends | Dorm | Class Year
+- Show small status tags: “Studying 📖” / “Vibing 🎶” / “Burnt out 🔥”
+
+**💬 Interactions**
+- Emoji reacts (🔥👀😭❤️)
+- Optional comments
+- **AI Summary Tag**: Auto-generates a funny caption or vibe check (e.g. “Definitely finals week 😩”)
 
 ---
 
-## 🌐 **PAGES BREAKDOWN **
+## 🌐 Page Structure (Figma Design Layout)
 
-YESSS let’s get your Figma design layout solid 🔥 Here's a complete breakdown of **Flick’s app pages**, with **buttons, links, and content** per screen — tailored to your core features and optimized for user flow.
-
----
-
-## 📱 **Flick App Page Structure (Figma Design Layout)**
-
----
 
 ### 🏠 **1. Home (Dashboard)**
 > Where users land after login. A snapshot of everything cool happening right now.
